@@ -1,0 +1,150 @@
+/* GLOBAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #fff8f5;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  background: url('images/choco_truffle.jpg') no-repeat center/cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  margin: 0;
+  color:black;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: #ff1493;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #e6007e;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #ffb6c1;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.navbar a:hover {
+  color: #ff1493;
+}
+
+/* CAKE GRID */
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.cake-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+.cake-card:hover {
+  transform: translateY(-10px);
+}
+
+.cake-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cake-card button {
+  margin-top: 10px;
+  background-color: #ff1493;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cake-card button:hover {
+  background-color: #e6007e;
+}
+
+/* ABOUT */
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.about-content img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+/* GALLERY */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* CONTACT */
+#contact {
+  text-align: center;
+  padding: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff69b4;
+  color: white;
+}
